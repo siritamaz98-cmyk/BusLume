@@ -22,6 +22,24 @@ Expect bugs, crashes, connection issues, and UI/UX changes while development con
 - USB connectivity
 - Android interface for real-time CAN work
 
+  ## 📱 Android App Screenshots
+
+<p align="center">
+  <img src="monitor.jpg" width="180" alt="CAN Monitor">
+  <img src="transmitter.jpg" width="180" alt="CAN Transmitter">
+  <img src="trace.jpg" width="180" alt="CAN Trace">
+  <img src="library.jpg" width="180" alt="CAN Library">
+  <img src="system.jpg" width="180" alt="System">
+</p>
+
+<p align="center">
+  <b>Monitor</b> •
+  <b>Transmitter</b> •
+  <b>Trace</b> •
+  <b>CAN Library</b> •
+  <b>System</b>
+</p>
+
 ## Download
 
 Latest public Alpha:
