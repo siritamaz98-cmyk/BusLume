@@ -48,6 +48,16 @@ Latest public Alpha:
 
 https://github.com/siritamaz98-cmyk/CAN-Hacker/releases/tag/v0.1.0-alpha
 
+## ☕ Support the Project
+
+If you find this project useful and would like to support its development, you can support me on Ko-fi.
+
+Your support helps fund prototype PCBs, electronic components, testing hardware, and continued development of the Android app.
+
+<a href="https://ko-fi.com/canhackermobile">
+  <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi">
+</a>
+
 ## Feedback
 
 Community feedback is one of the main reasons this project is being published at an early stage.
