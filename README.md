@@ -1,5 +1,11 @@
 # CAN Hacker
 
+![Android](https://img.shields.io/badge/Android-Alpha-3DDC84?logo=android&logoColor=white)
+![Release](https://img.shields.io/badge/Release-v0.1.0--alpha-orange)
+![CAN Bus](https://img.shields.io/badge/CAN-Bus-007ACC)
+![ESP32](https://img.shields.io/badge/ESP32-Supported-E7352C?logo=espressif&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-Nano-00878F?logo=arduino&logoColor=white)
+
 **CAN Hacker** is an open-source project for working with automotive CAN bus systems using a dedicated Android application and custom hardware.
 
 The project is currently under active development.
