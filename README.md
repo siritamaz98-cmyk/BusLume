@@ -4,6 +4,8 @@
 
 The project is focused on practical CAN research: finding vehicle signals, checking hypotheses against recorded traces, working with DBC data, and building a community-driven library of verified CAN signals.
 
+[⬇️ Download the latest BusLume release](https://github.com/siritamaz98-cmyk/BusLume/releases/latest)
+
 > 🚧 BusLume is under active development and real-world testing.
 
 ## What BusLume can do
