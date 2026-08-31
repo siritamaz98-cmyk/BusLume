@@ -30,32 +30,32 @@ The project is focused on practical CAN research: finding vehicle signals, check
 ### CAN Monitor
 Real-time CAN traffic monitoring with ID filtering, full frame data and tools for working with captured frames.
 
-<img src="docs/images/monitor.jpg" width="330" alt="BusLume CAN Monitor">
+<img src="monitor.jpg" width="330" alt="BusLume CAN Monitor">
 
 ### Transmitter
 Create and transmit CAN frames with configurable ID, DLC, data bytes and transmission period. Multiple frames can be prepared for independent transmission.
 
-<img src="docs/images/transmitter.jpg" width="330" alt="BusLume CAN Transmitter">
+<img src="transmitter.jpg" width="330" alt="BusLume CAN Transmitter">
 
 ### CAN Trace Recording
 Record CAN traffic for later playback and analysis. GPS can be used as a reference while researching vehicle-speed signals.
 
-<img src="docs/images/trace-record.jpg" width="330" alt="BusLume CAN Trace Recording">
+<img src="trace-record.jpg" width="330" alt="BusLume CAN Trace Recording">
 
 ### Trace Analysis
 Open recorded traces, filter CAN IDs and DATA, play frames back, select ranges and launch analysis tools.
 
-<img src="docs/images/trace-analysis.jpg" width="330" alt="BusLume Trace Analysis">
+<img src="trace-analysis.jpg" width="330" alt="BusLume Trace Analysis">
 
 ### Analysis Tools
 BusLume includes tools for ID/byte/bit statistics, byte graphs, Bit View, trace comparison, GPS speed-ID search, automatic signal search, controlled testing, filtered trace export and DBC work.
 
-<img src="docs/images/analysis-tools.jpg" width="330" alt="BusLume Analysis Tools">
+<img src="analysis-tools.jpg" width="330" alt="BusLume Analysis Tools">
 
 ### CAN Library
 Save discovered signals locally and work with the shared CAN library. Vehicle profiles help organize known IDs and verification data.
 
-<img src="docs/images/library.jpg" width="330" alt="BusLume CAN Library">
+<img src="library.jpg" width="330" alt="BusLume CAN Library">
 
 ## Community CAN Library
 
