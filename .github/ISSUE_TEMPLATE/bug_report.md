@@ -1,17 +1,16 @@
 ---
 name: Bug report
-about: Report a bug or unexpected behavior in CAN Hacker
-title: "[BUG]"
+about: Report a bug or unexpected behavior in BusLume
+title: "[BUG] "
 labels: bug
 assignees: ''
-
 ---
 
 ## Bug description
 Please describe the problem clearly.
 
-## App version
-Example: v0.1.0-alpha
+## BusLume version
+Enter the version/build you are using.
 
 ## Android device
 - Phone/tablet:
@@ -20,6 +19,7 @@ Example: v0.1.0-alpha
 ## Connection type
 - [ ] Bluetooth
 - [ ] USB
+- [ ] Other
 
 ## CAN hardware
 Please specify the CAN adapter/hardware you are using.
@@ -42,7 +42,7 @@ What actually happened?
 If possible, attach screenshots or a short video showing the problem.
 
 ## CAN trace / example frames
-If relevant, attach a CAN trace or example frames.
+If relevant, attach a CAN trace or example frames that help reproduce the issue.
 
 ⚠️ Please remove any sensitive or personal information before uploading logs, traces, screenshots, or files.
 
