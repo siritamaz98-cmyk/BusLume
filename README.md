@@ -1,20 +1,19 @@
-# CAN Hacker
+# BusLume
 
-![Android](https://img.shields.io/badge/Android-Alpha-3DDC84?logo=android&logoColor=white)
-![Release](https://img.shields.io/badge/Release-v0.1.0--alpha-orange)
+![Android](https://img.shields.io/badge/Android-In%20Development-3DDC84?logo=android&logoColor=white)
 ![CAN Bus](https://img.shields.io/badge/CAN-Bus-007ACC)
 ![ESP32](https://img.shields.io/badge/ESP32-Supported-E7352C?logo=espressif&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-Nano-00878F?logo=arduino&logoColor=white)
 
-**CAN Hacker** is an open-source project for working with automotive CAN bus systems using a dedicated Android application and custom hardware.
+**BusLume** is an open-source Android application and hardware project for working with automotive CAN bus systems.
 
-The project is currently under active development.
+The project is under active development and focuses on practical CAN monitoring, transmission, trace analysis, signal research, and community-driven CAN data collection.
 
 ## Current Status
 
-The first public Android version is available as an **Alpha release**.
+BusLume is currently in active development and testing.
 
-Expect bugs, crashes, connection issues, and UI/UX changes while development continues.
+Public releases use their own release numbering, independent of internal development, beta, and fix builds.
 
 ## Features
 
@@ -22,107 +21,52 @@ Expect bugs, crashes, connection issues, and UI/UX changes while development con
 - CAN frame transmission
 - Multiple CAN ID support
 - CAN ID library
-- CAN trace recording
-- CAN trace playback
+- CAN trace recording and playback
+- Trace analysis tools
 - Bluetooth connectivity
 - USB connectivity
+- GPS-assisted signal research
 - Android interface for real-time CAN work
 
-  ## 📱 Android App Screenshots
+## 📱 Android App Screenshots
 
 <p align="center">
-  <img src="monitor.jpg" width="180" alt="CAN Monitor">
-  <img src="transmitter.jpg" width="180" alt="CAN Transmitter">
-  <img src="trace.jpg" width="180" alt="CAN Trace">
-  <img src="library.jpg" width="180" alt="CAN Library">
-  <img src="system.jpg" width="180" alt="System">
+  <img src="monitor.jpg" width="180" alt="BusLume Monitor">
+  <img src="transmitter.jpg" width="180" alt="BusLume Transmitter">
+  <img src="trace.jpg" width="180" alt="BusLume Trace">
+  <img src="library.jpg" width="180" alt="BusLume Library">
+  <img src="system.jpg" width="180" alt="BusLume System">
 </p>
 
 <p align="center">
-  <b>Monitor</b> •
-  <b>Transmitter</b> •
-  <b>Trace</b> •
-  <b>CAN Library</b> •
-  <b>System</b>
+  <b>Monitor</b> • <b>Transmitter</b> • <b>Trace</b> • <b>CAN Library</b> • <b>System</b>
 </p>
-
-## Download
-
-Latest public Alpha:
-
-**CAN Hacker Android v0.1.0 Alpha**
-
-https://github.com/siritamaz98-cmyk/CAN-Hacker/releases/tag/v0.1.0-alpha
-
-## ☕ Support the Project
-
-If you find this project useful and would like to support its development, you can support me on Ko-fi.
-
-Your support helps fund prototype PCBs, electronic components, testing hardware, and continued development of the Android app.
-
-<a href="https://ko-fi.com/canhackermobile">
-  <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi">
-</a>
 
 ## Feedback
 
-Community feedback is one of the main reasons this project is being published at an early stage.
+BusLume is being developed in the open so that real-world testing and community feedback can directly influence the project.
 
-If you test CAN Hacker, I would really like to hear:
+Feedback is welcome on bugs, connectivity, CAN monitoring and transmission, Trace analysis, signal identification, UI/UX, hardware compatibility, and feature requests.
 
-- what works well;
-- what feels inconvenient or confusing;
-- what bugs or crashes you find;
-- what you would change in the interface;
-- which features are missing;
-- how the application behaves with real CAN hardware.
-
-Constructive criticism is very welcome.
-
-You can use **GitHub Issues** for bugs and feature requests, or join the discussion here:
-
-https://github.com/siritamaz98-cmyk/CAN-Hacker/discussions
+Use **GitHub Issues** for bug reports and feature requests.
 
 ## Hardware
 
-Dedicated CAN Hacker hardware is also under development.
+Dedicated BusLume CAN hardware is also under development.
 
-The current direction is based on:
-
-- ESP32
-- automotive CAN transceiver
-- Bluetooth connectivity
-- USB connectivity
-- protected automotive power input
-- switchable CAN termination
-- dedicated Android integration
-
-The first hardware revisions will be tested before a more compact production-oriented version is released.
+The current hardware direction includes ESP32, an automotive CAN transceiver, Bluetooth and USB connectivity, protected automotive power input, switchable CAN termination, and dedicated Android integration.
 
 ## Roadmap
 
-Planned development includes:
-
-- improved CAN Monitor
-- improved Transmitter
-- better Trace workflow
-- expanded CAN ID library
-- vehicle selection by manufacturer and model
-- easier creation of custom CAN IDs
-- improved Bluetooth and USB connection workflow
-- dedicated ESP32 hardware
-- improved stability and UI/UX
-- community-driven CAN data collection
+Planned development includes improved monitoring and transmission, expanded Trace analysis, an expanded CAN signal library, vehicle selection, easier creation and verification of custom CAN signals, dedicated ESP32 hardware, improved stability and UI/UX, and community-driven CAN data collection.
 
 ## Contributing
 
-Testing, bug reports, feature suggestions, UI/UX feedback, and CAN research contributions are welcome.
-
-The project is still young, so community feedback can directly influence future development.
+Testing, bug reports, feature suggestions, UI/UX feedback, CAN research, verified signals, and trace contributions are welcome.
 
 ## ⚠️ Safety Warning
 
-**CAN Hacker is experimental software. Use it at your own risk.**
+**BusLume is experimental software. Use it at your own risk.**
 
 The application can interact with automotive CAN bus systems, including transmitting CAN frames.
 
@@ -134,4 +78,4 @@ For initial testing, using a bench setup or dedicated test hardware is strongly 
 
 ---
 
-**CAN Hacker — Work in Progress**
+**BusLume — Work in Progress**
