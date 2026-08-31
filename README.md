@@ -81,6 +81,12 @@ Real-world testing is especially useful. Bug reports, feature suggestions, CAN r
 
 Use **GitHub Issues** for reproducible bugs and feature requests, and **GitHub Discussions** for questions, ideas and CAN research.
 
+## Support BusLume
+
+BusLume is developed as an independent open-source project. If you find the project useful and would like to support its continued development, testing and hardware prototyping, you can support BusLume on Ko-fi.
+
+[☕ Support BusLume on Ko-fi](https://ko-fi.com/buslume)
+
 ## Safety
 
 > **BusLume is experimental software. Use it at your own risk.**
