@@ -47,6 +47,28 @@ The firmware used with this prototype is configured for an **8 MHz MCP2515 oscil
 
 The BusLume prototype firmware uses **115200 baud** for both USB Serial and HC-05 communication.
 
+## Firmware
+
+A Bluetooth firmware sketch for this prototype is included here:
+
+- `firmware/BusLume_Arduino_MCP2515_BT.ino`
+
+The sketch is configured for:
+
+- Arduino Nano / ATmega328P;
+- MCP2515 with an **8 MHz oscillator**;
+- MCP2515 `CS = D10`;
+- MCP2515 `INT = D2`;
+- SPI `MOSI = D11`, `MISO = D12`, `SCK = D13`;
+- HC-05 `TXD -> D3`;
+- HC-05 `RXD <- D4` through a voltage divider;
+- HC-05 communication at **115200 baud**;
+- USB Serial at **115200 baud** for bench/debug output.
+
+The current sketch uses the HC-05 stream as the BusLume command/data interface and USB Serial as the debug stream. It depends on the same Arduino CAN protocol libraries used during prototype development (`can.h`, `mcp2515.h`, `CanHacker.h`, `CanHackerLineReader.h`, `lib.h`) plus the standard `SPI` and `SoftwareSerial` libraries.
+
+Before uploading the sketch, select the correct Arduino Nano board/processor option in the Arduino IDE and confirm that the MCP2515 module actually uses an **8 MHz** crystal.
+
 ## CAN termination
 
 A CAN bus normally requires **120 Ω termination at each physical end of the bus**. Do not add extra 120 Ω resistors if the vehicle network and the connected interface already provide the required termination.
@@ -65,9 +87,10 @@ This section should be treated as a development design and independently checked
 2. Make sure the interface and vehicle share ground when required by the test setup.
 3. Verify CAN termination before transmitting.
 4. Power the interface from USB for bench tests, or from the protected automotive input when that section has been assembled and verified.
-5. Connect BusLume through Bluetooth HC-05 or USB Serial.
-6. Select the correct CAN bitrate for the vehicle network.
-7. Start with monitoring only. Transmit frames only when you understand their function and possible consequences.
+5. Upload `firmware/BusLume_Arduino_MCP2515_BT.ino` to the Arduino Nano.
+6. Pair/connect to the HC-05 and connect BusLume through Bluetooth.
+7. Select the correct CAN bitrate for the vehicle network.
+8. Start with monitoring only. Transmit frames only when you understand their function and possible consequences.
 
 ## Hardware files
 
@@ -77,7 +100,8 @@ The hardware package prepared from the EasyEDA Pro project contains:
 - `schematic/BusLume_Arduino_MCP2515_Schematic.pdf` — schematic PDF;
 - `easyeda/BusLume_Arduino_MCP2515_PCB.epro2` — EasyEDA Pro PCB source;
 - `easyeda/BusLume_Arduino_MCP2515_Schematic.epro2` — EasyEDA Pro schematic source;
-- `SHA256SUMS.txt` — checksums for the supplied files.
+- `firmware/BusLume_Arduino_MCP2515_BT.ino` — Arduino Nano + MCP2515 + HC-05 firmware;
+- `SHA256SUMS.txt` — checksums for the supplied hardware files.
 
 ## Safety
 
