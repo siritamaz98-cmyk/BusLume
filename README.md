@@ -93,6 +93,12 @@ Dedicated **BusLume hardware** is also under development. The current direction 
 
 BusLume can also be developed and tested with compatible CAN interfaces during the project's hardware development phase.
 
+### Arduino + MCP2515 prototype
+
+The early BusLume development interface based on **Arduino Nano + MCP2515 + HC-05** is documented separately, including wiring, CAN termination, power notes and EasyEDA/Gerber file information.
+
+[🔧 Arduino + MCP2515 hardware documentation](hardware/arduino-mcp2515/README.md)
+
 ## Project status
 
 BusLume is currently in active development. Interfaces, analysis tools and data structures may change as testing continues.
