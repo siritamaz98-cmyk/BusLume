@@ -6,6 +6,13 @@ The project is focused on practical CAN research: finding vehicle signals, check
 
 [⬇️ Download the latest BusLume release](https://github.com/siritamaz98-cmyk/BusLume/releases/latest)
 
+## Video overview
+
+[![Watch the BusLume overview](https://img.youtube.com/vi/s3H_9ZLg0uA/hqdefault.jpg)](https://youtu.be/s3H_9ZLg0uA)
+
+- 🇺🇦 [BusLume — мобільний CAN-аналізатор для Android](https://youtu.be/zmAvGqz666c)
+- 🇬🇧 [BusLume — Mobile CAN Analyzer for Android](https://youtu.be/s3H_9ZLg0uA)
+
 > 🚧 BusLume is under active development and real-world testing.
 
 ## 🇺🇦 Українською
