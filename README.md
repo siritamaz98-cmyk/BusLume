@@ -1,6 +1,6 @@
 # BusLume
 
-**BusLume** is an open-source Android application for monitoring, transmitting, recording and analyzing automotive CAN bus traffic.
+**BusLume** is an Android application for monitoring, transmitting, recording and analyzing automotive CAN bus traffic.
 
 The project is focused on practical CAN research: finding vehicle signals, checking hypotheses against recorded traces, working with DBC data, and building a community-driven library of verified CAN signals.
 
@@ -17,7 +17,7 @@ The project is focused on practical CAN research: finding vehicle signals, check
 
 ## 🇺🇦 Українською
 
-**BusLume** — це Android-застосунок з відкритим кодом для моніторингу, передавання, запису та аналізу даних автомобільної CAN-шини.
+**BusLume** — це Android-застосунок для моніторингу, передавання, запису та аналізу даних автомобільної CAN-шини.
 
 Проєкт орієнтований на практичне дослідження автомобільних CAN-мереж: пошук сигналів автомобіля, перевірку гіпотез за записаними трасами, роботу з DBC-даними та створення спільної бібліотеки перевірених CAN-сигналів.
 
@@ -78,7 +78,7 @@ Record CAN traffic for later playback and analysis. GPS can be used as a referen
 ### Trace Analysis
 Open recorded traces, filter CAN IDs and DATA, play frames back, select ranges and launch analysis tools.
 
-<img src="trace-analysis.jpg" width="330" alt="BusLume Trace Analysis">
+<img src="trace-analysis.jpg" width="330" alt="BusLume CAN Trace Analysis">
 
 ### Analysis Tools
 BusLume includes tools for ID/byte/bit statistics, byte graphs, Bit View, trace comparison, GPS speed-ID search, automatic signal search, controlled testing, filtered trace export and DBC work.
@@ -120,7 +120,7 @@ Use **GitHub Issues** for reproducible bugs and feature requests, and **GitHub D
 
 ## Support BusLume
 
-BusLume is developed as an independent open-source project. If you find the project useful and would like to support its continued development, testing and hardware prototyping, you can support BusLume on Ko-fi.
+BusLume is developed as an independent project. If you find the project useful and would like to support its continued development, testing and hardware prototyping, you can support BusLume on Ko-fi.
 
 [☕ Support BusLume on Ko-fi](https://ko-fi.com/buslume)
 
