@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="780" viewBox="0 0 1100 780">
+  <rect width="1100" height="780" fill="#f7f9fc"/>
+  <style>
+    .box { fill:#ffffff; stroke:#1f2937; stroke-width:2; rx:12; }
+    .title { font:700 22px Arial,sans-serif; fill:#111827; }
+    .label { font:15px Arial,sans-serif; fill:#111827; }
+    .small { font:13px Arial,sans-serif; fill:#374151; }
+    .wire { stroke:#2563eb; stroke-width:3; fill:none; }
+    .power { stroke:#dc2626; stroke-width:3; fill:none; }
+    .ground { stroke:#111827; stroke-width:3; fill:none; }
+    .aux { stroke:#059669; stroke-width:3; fill:none; }
+    .pin { font:700 14px Arial,sans-serif; fill:#111827; }
+  </style>
+
+  <text x="550" y="34" text-anchor="middle" class="title">BusLume ESP32 + TXS0108E + MCP2515 (8 MHz)</text>
+  <text x="550" y="57" text-anchor="middle" class="small">Autonomous CAN tester wiring</text>
+
+  <rect x="30" y="90" width="285" height="465" class="box"/>
+  <text x="172" y="124" text-anchor="middle" class="title">ESP32 DevKit</text>
+  <text x="55" y="164" class="label">GPIO18  SPI SCK</text>
+  <text x="55" y="214" class="label">GPIO23  MOSI</text>
+  <text x="55" y="264" class="label">GPIO5   CS</text>
+  <text x="55" y="314" class="label">GPIO19  MISO</text>
+  <text x="55" y="364" class="label">GPIO27  MCP INT</text>
+  <text x="55" y="414" class="label">GPIO21  OLED SDA</text>
+  <text x="55" y="444" class="label">GPIO22  OLED SCL</text>
+  <text x="55" y="484" class="label">GPIO34  Joystick VRx</text>
+  <text x="55" y="514" class="label">GPIO35  Joystick VRy</text>
+  <text x="55" y="544" class="label">GPIO32  Joystick SW</text>
+
+  <rect x="395" y="135" width="285" height="360" class="box"/>
+  <text x="537" y="170" text-anchor="middle" class="title">TXS0108E</text>
+  <text x="430" y="201" class="label">A1</text><text x="620" y="201" class="label">B1</text>
+  <text x="430" y="251" class="label">A2</text><text x="620" y="251" class="label">B2</text>
+  <text x="430" y="301" class="label">A3</text><text x="620" y="301" class="label">B3</text>
+  <text x="430" y="351" class="label">A4</text><text x="620" y="351" class="label">B4</text>
+  <text x="430" y="401" class="label">A5</text><text x="620" y="401" class="label">B5</text>
+  <text x="430" y="448" class="label">VA = 3.3 V</text>
+  <text x="560" y="448" class="label">VB = 5 V</text>
+  <text x="430" y="475" class="label">OE = 3.3 V</text>
+
+  <rect x="770" y="105" width="300" height="470" class="box"/>
+  <text x="920" y="140" text-anchor="middle" class="title">MCP2515 module</text>
+  <text x="800" y="195" class="label">SCK  &lt;— B1</text>
+  <text x="800" y="245" class="label">SI/MOSI &lt;— B2</text>
+  <text x="800" y="295" class="label">CS   &lt;— B3</text>
+  <text x="800" y="345" class="label">SO/MISO —&gt; B4</text>
+  <text x="800" y="395" class="label">INT  —&gt; B5</text>
+  <text x="800" y="450" class="label">VCC = 5 V</text>
+  <text x="800" y="480" class="label">GND = common</text>
+  <text x="800" y="525" class="label">CANH / CANL → bus</text>
+  <text x="800" y="552" class="small">120 Ω only at bus end</text>
+
+  <!-- SPI/control wires -->
+  <path d="M315 155 H395" class="wire"/><path d="M680 190 H770" class="wire"/>
+  <path d="M315 205 H395" class="wire"/><path d="M680 240 H770" class="wire"/>
+  <path d="M315 255 H395" class="wire"/><path d="M680 290 H770" class="wire"/>
+  <path d="M315 305 H395" class="wire"/><path d="M680 340 H770" class="wire"/>
+  <path d="M315 355 H395" class="wire"/><path d="M680 390 H770" class="wire"/>
+  <text x="350" y="151" class="small">A1</text><text x="705" y="186" class="small">B1</text>
+  <text x="350" y="201" class="small">A2</text><text x="705" y="236" class="small">B2</text>
+  <text x="350" y="251" class="small">A3</text><text x="705" y="286" class="small">B3</text>
+  <text x="350" y="301" class="small">A4</text><text x="705" y="336" class="small">B4</text>
+  <text x="350" y="351" class="small">A5</text><text x="705" y="386" class="small">B5</text>
+
+  <!-- Power and ground -->
+  <path d="M172 570 V625 H537 V495" class="ground"/>
+  <path d="M250 90 V70 H537 V135" class="power"/>
+  <path d="M537 495 V575 H920 V575" class="ground"/>
+  <text x="330" y="615" class="small">All GND connected</text>
+  <text x="350" y="78" class="small">3.3 V to ESP32 side / VA / OE</text>
+  <text x="700" y="600" class="small">5 V to VB and MCP2515 VCC</text>
+
+  <!-- OLED and joystick -->
+  <rect x="40" y="635" width="300" height="105" class="box"/>
+  <text x="190" y="665" text-anchor="middle" class="title">OLED I²C</text>
+  <text x="60" y="694" class="small">VCC 3.3 V   GND common</text>
+  <text x="60" y="718" class="small">SDA GPIO21   SCL GPIO22</text>
+
+  <rect x="390" y="635" width="300" height="105" class="box"/>
+  <text x="540" y="665" text-anchor="middle" class="title">Joystick</text>
+  <text x="410" y="694" class="small">VCC 3.3 V   GND common</text>
+  <text x="410" y="718" class="small">VRx GPIO34  VRy GPIO35  SW GPIO32</text>
+
+  <path d="M190 555 V635" class="aux"/><path d="M250 555 V635" class="aux"/>
+  <path d="M275 555 V635" class="aux"/>
+  <text x="45" y="765" class="small">USB powers the ESP32 test setup. Do not apply vehicle 12/24 V directly to this prototype.</text>
+</svg>
