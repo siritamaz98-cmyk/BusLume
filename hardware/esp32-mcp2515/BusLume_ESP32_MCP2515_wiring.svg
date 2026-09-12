@@ -66,7 +66,7 @@
   <!-- Power and ground -->
   <path d="M172 570 V625 H537 V495" class="ground"/>
   <path d="M250 90 V70 H537 V135" class="power"/>
-  <path d="M537 495 V575 H920 V575" class="ground"/>
+  <path d="M537 495 V575 H920 V575" class="power"/>
   <text x="330" y="615" class="small">All GND connected</text>
   <text x="350" y="78" class="small">3.3 V to ESP32 side / VA / OE</text>
   <text x="700" y="600" class="small">5 V to VB and MCP2515 VCC</text>
