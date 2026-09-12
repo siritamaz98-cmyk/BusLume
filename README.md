@@ -106,6 +106,12 @@ The early BusLume development interface based on **Arduino Nano + MCP2515 + HC-0
 
 [🔧 Arduino + MCP2515 hardware documentation](hardware/arduino-mcp2515/README.md)
 
+### ESP32 + MCP2515 standalone prototype
+
+The current standalone ESP32 test unit with TXS0108E level shifting, MCP2515 (8 MHz crystal), OLED and joystick is documented here:
+
+[🔌 ESP32 + MCP2515 hardware documentation](hardware/esp32-mcp2515/README.md)
+
 ## Project status
 
 BusLume is currently in active development. Interfaces, analysis tools and data structures may change as testing continues.
