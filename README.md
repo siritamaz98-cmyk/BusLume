@@ -100,6 +100,14 @@ Dedicated **BusLume hardware** is also under development. The current direction 
 
 BusLume can also be developed and tested with compatible CAN interfaces during the project's hardware development phase.
 
+### ESP32 + MCP2518FD standalone CAN/CAN FD prototype
+
+The current working standalone controller uses an **ESP32 DevKit V1 (30-pin)**, an **MCP2518FD** module, a 128x64 I²C OLED, a PS2 joystick and two buttons. It supports autonomous monitoring/transmission plus USB and Bluetooth SLCAN operation.
+
+The complete tested firmware, illustrated wiring guide, EasyEDA schematic and exact net-label tables are published here:
+
+[⚡ ESP32 + MCP2518FD hardware, firmware and wiring](hardware/esp32-mcp2518fd/README.md)
+
 ### Arduino + MCP2515 prototype
 
 The early BusLume development interface based on **Arduino Nano + MCP2515 + HC-05** is documented separately, including wiring, CAN termination, power notes and EasyEDA/Gerber file information.
