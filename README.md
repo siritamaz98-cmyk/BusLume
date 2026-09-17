@@ -12,7 +12,7 @@ The project is focused on practical CAN research: finding vehicle signals, check
 
 - 🇺🇦 [BusLume — мобільний CAN-аналізатор для Android](https://youtu.be/zmAvGqz666c)
 - 🇬🇧 [BusLume — Mobile CAN Analyzer for Android](https://youtu.be/s3H_9ZLg0uA)
-- 🇬🇧 [Automatic CAN Signal Detection — Brake, Throttle, Doors & RPM](https://youtu.be/RBn4Ba7d7vU)
+- 🇺🇦 [Автоматичний пошук CAN-сигналів — гальма, акселератор, двері та оберти двигуна](https://youtu.be/RBn4Ba7d7vU)
 
 > 🚧 BusLume is under active development and real-world testing.
 
